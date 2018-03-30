@@ -1,7 +1,10 @@
 {
   "name": "unescape-alltypes-html",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
   "repository": "https://github.com/stop2stare/unescape-html.git",
   "author": "stop2stare <emitremmus0235@163.com>",
   "license": "MIT",

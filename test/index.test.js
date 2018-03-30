@@ -11,6 +11,9 @@ describe('unescape-alltypes-html', () => {
   it('should convert &#39;|&#x27; into \'', () => {
     assert(unescape('&#39; &#x27;') === '\' \'')
   })
+  it('should convert &#47;|&#x2f; into /', () => {
+    assert(unescape('&#47; &#x2f;') === '/ /')
+  })
   it('should convert &#58;|&#x3a; into :', () => {
     assert(unescape('&#58; &#x3a;' === ': :'))
   })
