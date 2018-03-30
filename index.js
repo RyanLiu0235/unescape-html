@@ -1,6 +1,8 @@
-
 /**
  * this version converts all the Dec/Hex/Entity type
+ * see all the types:
+ * http://www.howtocreate.co.uk/sidehtmlentity.html
+ *
  * @param  {String} raw
  * @return {String}
  */
