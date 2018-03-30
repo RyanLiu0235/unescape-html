@@ -6,7 +6,7 @@ See [sidehtmlentity](http://www.howtocreate.co.uk/sidehtmlentity.html) for detai
 
 [unescape-html](https://github.com/ForbesLindesay/unescape-html) is just a reverse of [escape-html](https://github.com/component/escape-html), and it fails to convert some types.
 
-# Installation
+## Installation
 
 ``` sh
 $ yarn add unescape-alltypes-html
